@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <title>Form 1</title>
+</head>
+<body>
+    <div class="main">
+        <div class="welcome">
+            <h1>Welcome</h1>
+            <p>To the zone of happiness</p>
+        </div>
+
+        <form>
+            <h1>Hello! Please tell us a little bit about yourself</h1>
+            <div class="phone-date">
+                <div class="phone">
+                    <label for="phone">Phone Number</label><br>
+                    <input type="text" id="phone" placeholder="+212 505-101020" required title="">
+                </div>
+                <div class="date">
+                    <label for="date">Date Of Birth</label><br>
+                    <input type="text" id="date" placeholder="1999-01-01" required title="">
+                </div>
+            </div>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="***********************" required title=""><br>
+
+            <input type="checkbox" id="terms" required>
+            <label for="terms" class="terms">I accept the terms of use and Privacy Policy</label>
+
+
+            <div class="btn">
+                <input type="submit" class="register" value="REGISTER">
+                <button class="back"><a href="page1.html">BACK</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

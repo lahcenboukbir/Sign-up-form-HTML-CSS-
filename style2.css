@@ -1,0 +1,154 @@
+/* Global */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Main */
+
+.main {
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    background-color: #F1E8E6;
+    border-radius: 25px;
+    box-shadow: 5px 20px 40px 5px rgba(0, 0, 0, 0.25);
+}
+
+/* Left */
+
+.main .welcome {
+    width: 349px;
+    height: 500px;
+    background-color: #F55951;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .welcome h1 {
+    font-size: 45px; 
+    font-weight: 400; 
+    cursor: pointer; 
+}
+
+.main .welcome p {
+    font-size: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+/* Right */
+
+.main form {
+    width: 451px;
+}
+
+.main form h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #393939;
+    margin: 30px 0 22px 30px;
+    cursor: pointer;
+}
+
+.phone-date {
+    display: flex;
+}
+
+.main form label {
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 30px;
+    color: #393939;
+    cursor: pointer;
+}
+
+.main form input {
+    height: 30px;
+    background-color: #FFFFFF;
+    outline: none;
+    border: solid 1px #D6D6D6;
+    margin: 2px 0 22px 30px;
+    padding-left: 10px;
+    color: #686868;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color: #686868;
+}
+
+.main form #phone, #date {
+    width: 161px;
+}
+
+.main form #password {
+    width: 352px;
+}
+
+.main form #terms {
+    width: 15px;
+    height: 15px;
+    border: solid #D6D6D6;
+    border-radius: 5px;
+}
+
+.main form .terms {
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: 8px !important;
+    position: relative;
+    top: -4px;
+}
+
+.main form .btn .register, .back {
+    width: 90px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    border-radius: 25px;
+    margin-top: 129px;
+}
+
+.btn .back {
+    float: left;
+    margin-left: 30px;
+    background-color: #FFFFFF;
+}
+
+.btn .back a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.btn .register {
+    float: right;
+    transform: translateX(-71px);
+    background-color: #4D3749;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-align: center;
+    padding: 0 !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #F55951;
+}
